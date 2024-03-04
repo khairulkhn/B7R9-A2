@@ -1,0 +1,159 @@
+
+body{
+    margin: 10px 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    text-align: end;
+}
+
+.banner-title {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/Banner.png');
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    height: 100vh;
+    border-radius: 20px;
+  }
+  
+  .banner-title h1 {
+    font-size: 2.5em;
+    margin-top: 200px;
+  }
+  
+  .banner-title p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .banner-title div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+    .banner-title input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+  }
+  
+  .banner-title input[type="button"] {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.popular-tour{
+    display: flex;
+    padding: 20px;
+}
+
+.chose-container{
+    text-align: center;
+}
+.chose-container p{
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.chose-card{
+    display: flex;
+    justify-content: space-between;
+}
+.chose-card-hotel{
+    width: 40%;
+    height: 250px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f7e4cf;
+    border-radius: 10px;
+}
+.chose-card-service{
+    width: 40%;
+    height: 250px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #cce9f0;
+    border-radius: 10px;
+}
+.chose-card-price{
+    text-align: center;
+    width: 40%;
+    height: 250px;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: #e0cfcf ;
+    border-radius: 10px;
+}
+
+.chose-card-price h1, p {
+    text-align: start;
+}
+
+.news-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.newsletter{
+    width: 45%;
+    height: 350px;
+    padding: 20px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+}
+.news-container >div input{
+    display: block;
+    margin: 20px;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(231, 223, 223, 0.993);
+}
+
+#sub{
+    background-color: orangered;
+    color: white;
+    font: bold;
+}
+
+.news-img div{
+    text-align: center;
+    position: relative;
+    margin-top: -200px;
+    background-color: orangered;
+    color: white;
+    width: 250px;
+    left: 60%;
+    border-radius: 10px;
+    rotate: -30deg;
+    padding: 2px;
+   }
+
+   footer{
+    width: 100%;
+    height: 300px;
+    background-color: lightgrey;
+    margin: 50px 0px;
+    padding: 30px;
+    text-align: center;
+   }
+
+   footer div p{
+    text-align: center;
+   }
